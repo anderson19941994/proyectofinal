@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asistencia.css">
+    <link rel="stylesheet" href="fontawesome-free-6.6.0-web/css/all.css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js"></script>
+    <title>Asistencia</title>
+</head>
+<body>
+    <header>
+        <h1>ProGamerNation</h1>
+    <nav>
+        <ul>
+            <li><a href="Login.html"><i class="fa-solid fa-user"></i>  Login</a></li>
+            <li><a href="index.html"><i class="fa-solid fa-house"></i>  Inicio</a></li>
+            <li><a href="asistencia.html"><i class="fa-solid fa-screwdriver-wrench"></i>  Asistencia</a></li>
+            <li><a href="comunidad.html"><i class="fa-solid fa-comments"></i>  Comunidad</a></li>
+            <li><a href="Compras.html"><i class="fa-solid fa-cart-shopping"></i>  Compras</a></li>
+            <li><a href="AboutUs.html"><i class="fa-solid fa-users"></i>  Nosotros</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main>
+        <section id="redes-sociales">
+            <h2>Redes Sociales</h2>
+            <div class="social-media">
+                <div class="social-item">
+                    <a href="https://www.youtube.com" target="_blank">
+                        <img src="Img/youtube_logo.jpg" alt="YouTube">
+                    </a>
+                    <p>YouTube</p>
+                </div>
+
+                <div class="social-item">
+                    <a href="https://web.facebook.com/" target="_blank">
+                        <img src="Img/facebook_logo.jpg" alt="Facebook">
+                    </a>
+                    <p>Facebook</p>
+                </div>
+                <div class="social-item">
+                    <a href="https://www.tiktok.com">
+                        <img src="Img/tiktok_logo.jpg" alt="tiktok">
+                    </a>
+                    <p>Tik-Tok</p>
+                </div>
+                <div class="social-item">
+                    <a href="https://www.instagram.com">
+                        <img src="Img/instagran_logo.jpg" alt="Instagram">
+                    </a>
+                    <p>Instagram</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="plataformas">
+            <h2>Plataformas de Videojuegos</h2>
+            <div class="platforms">
+                <div class="platform-item">
+                    <a href="https://www.playstation.com/es-mx/">
+                        <img src="Img/ps5_logo.jpg" alt="PlayStation">
+                    </a>
+                    <p>PlayStation</p>
+                </div>
+                <div class="platform-item">
+                    <a href="https://www.xbox.com/es-ES">
+                        <img src="Img/xbox_logo.jpg" alt="XBOX">
+                    </a>
+                    <p>XBOX</p>
+                </div>
+                <div class="platform-item">
+                    <a href="https://www.microsoft.com/es-es/windows">
+                        <img src="Img/windows_logo.jpg" alt="PC">
+                    </a>
+                    <p>PC</p>
+                </div>
+                <div class="platform-item">
+                    <a href="https://www.nintendo.com/es-pe/switch/?srsltid=AfmBOopvzSOLdZohBKVFlcYTDFj1BhBjjO8rpmB-klyHyo38hZVZTD-U">
+                        <img src="Img/nintendo_logo.jpg" alt="Nintendo Switch">
+                    </a>
+                    <p>Nintendo Switch</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="libro-reclamaciones">
+            <h2>Libro de Reclamaciones</h2>
+            <form>
+                <fieldset>
+                    <legend>Información de la Reclamación</legend>
+                    <label for="fecha">Fecha:</label>
+                    <input type="date" id="fecha" name="fecha" required>
+
+                    <label for="numero-reclamacion">Número de Reclamación:</label>
+                    <input type="text" id="numero-reclamacion" name="numero-reclamacion" required>
+
+                    <label for="direccion-local">Dirección del Local:</label>
+                    <input type="text" id="direccion-local" name="direccion-local" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Identificación del Usuario</legend>
+                    <label for="nombre-usuario">Nombre:</label>
+                    <input type="text" id="nombre-usuario" name="nombre-usuario" required>
+
+                    <label for="apellidos-usuario">Apellidos:</label>
+                    <input type="text" id="apellidos-usuario" name="apellidos-usuario" required>
+
+                    <label for="dni">DNI:</label>
+                    <input type="text" id="dni" name="dni" required>
+
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo" required>
+
+                    <label for="domicilio">Domicilio:</label>
+                    <input type="text" id="domicilio" name="domicilio" required>
+
+                    <label for="reclamo">Reclamo:</label>
+                    <textarea id="reclamo" name="reclamo" rows="4" required></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Identificación del Empleado</legend>
+                    <label for="nombre-empleado">Nombre:</label>
+                    <input type="text" id="nombre-empleado" name="nombre-empleado" required>
+
+                    <label for="apellidos-empleado">Apellidos:</label>
+                    <input type="text" id="apellidos-empleado" name="apellidos-empleado" required>
+
+                    <label for="numero-empleado">Número de Empleado:</label>
+                    <input type="text" id="numero-empleado" name="numero-empleado" required>
+
+                    <label for="descargo-empleado">Descargo del Empleado:</label>
+                    <textarea id="descargo-empleado" name="descargo-empleado" rows="4" required></textarea>
+                </fieldset>
+
+                <button type="submit">Enviar Reclamación</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="Img/Logo2.jpg" alt="Logo de videojuegos">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, voluptates.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, voluptates.</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS EN</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2024 <b>ProGamerNation</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+</body>
+</html>
